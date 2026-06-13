@@ -56,7 +56,8 @@ h2,
 
 .nav-link,
 .back-link,
-.text-link {
+.text-link,
+.contact-card a {
   color: var(--accent-dark);
   text-decoration: none;
   font-weight: 600;
@@ -91,7 +92,8 @@ h2,
 .hero-text,
 .section p,
 .card p,
-.post p {
+.post p,
+.contact-card p {
   font-size: 1.02rem;
   color: var(--muted);
 }
@@ -121,7 +123,8 @@ h2,
 }
 
 .card,
-.post {
+.post,
+.contact-card {
   background: rgba(255, 250, 242, 0.8);
   border: 1px solid var(--border);
   border-radius: 28px;
@@ -140,6 +143,10 @@ h2,
 .text-link {
   display: inline-block;
   margin-top: 8px;
+}
+
+.contact-card p {
+  margin: 10px 0;
 }
 
 .footer {
@@ -185,7 +192,8 @@ h2,
   }
 
   .card,
-  .post {
+  .post,
+  .contact-card {
     padding: 22px;
     border-radius: 22px;
   }
