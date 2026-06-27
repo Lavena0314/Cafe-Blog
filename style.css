@@ -158,9 +158,9 @@ img {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: linear-gradient(135deg, rgba(243, 234, 220, 0.95), rgba(255, 250, 242, 0.95));
-  border: 1px dashed rgba(139, 98, 57, 0.35);
-  color: var(--accent-dark);
+  background: linear-gradient(135deg, #f0e2cf, #fff7ec);
+  border: 1px dashed rgba(47, 42, 37, 0.25);
+  color: var(--text);
   font-weight: 600;
   text-align: center;
 }
