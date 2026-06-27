@@ -163,6 +163,19 @@ img {
   border: 1px solid var(--border);
 }
 
+
+.review-list {
+  display: grid;
+  gap: 24px;
+}
+
+.review-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.4rem, 2vw, 1.9rem);
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+
 .card-meta,
 .post-date {
   color: var(--accent-dark);
