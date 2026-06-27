@@ -127,6 +127,11 @@ img {
   margin: 8px 0 18px;
 }
 
+.featured-posts {
+  display: grid;
+  gap: 24px;
+}
+
 .card,
 .post,
 .contact-card,
@@ -146,6 +151,18 @@ img {
   object-fit: cover;
   border-radius: 22px;
   margin: 18px 0 22px;
+}
+
+.image-placeholder {
+  min-height: 260px;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(243, 234, 220, 0.95), rgba(255, 250, 242, 0.95));
+  border: 1px dashed rgba(139, 98, 57, 0.35);
+  color: var(--accent-dark);
+  font-weight: 600;
+  text-align: center;
 }
 
 .photo-grid {
@@ -173,6 +190,17 @@ img {
 .text-link {
   display: inline-block;
   margin-top: 8px;
+}
+
+.is-disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.post-preview h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  margin: 10px 0 12px;
 }
 
 .contact-card p {
